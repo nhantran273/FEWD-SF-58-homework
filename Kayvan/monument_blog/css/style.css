@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {font-family: "Raleway", sans-serif;
+text-transform: uppercase;
+letter-spacing: .02em;
+text-align: center;
+color: #44545e;
+
+}
+
+/* Fix for responsive images */
+
+body nav {
+	font-family: "raleway", sans-serif;
+	font-size: 16px;
+	color: grey-blue;
+}
+
+body header {
+	background-image: url("../images/blog_header_bg.jpg");
+	padding: 200px;
+	margin: 20px;
+}
+
+header a {
+	color: white
+}
+
+
+img {
+	max-width: 100%;
+}
+
+p {
+	font-size: 15px;
+	font-family: "Lato", sans-serif;
+
+}
+
+body h3 {
+	font-family: "raleway";
+	font-size: 18px;
+}
+
+body ul {
+	font-family: "raleway";
+	font-size: 15px;
+}
+
+.bullet {width:200px;
+    margin:0 auto;
+    text-align:left;
+	
+}
+
+footer {
+	background-color: #cdf3f6;
+	padding: 25px;
+
+
+}
+
+
+
