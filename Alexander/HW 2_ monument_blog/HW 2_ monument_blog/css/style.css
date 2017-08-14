@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+
+
+body {
+	font-family: Raleway, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .02em;
+	text-align: center;
+	color: #44545E;
+	-webkit-font-smoothing: antialiased;
+}
+
+body nav a {
+	color: #AFE2FF;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	padding: 30px 40px 40px 40px;
+}
+
+body nav {
+	margin-bottom: 50px;
+		color: #AFE2FF;
+
+}
+
+body header {
+        background-image: url("../images/blog_header_bg.jpg");
+        padding: 80px 0px 80px 0px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+}
+
+body header h1 a {
+	font-weight: 600;
+	font-size: 37px;
+	letter-spacing: .06em;
+	text-decoration: none;
+	        	color: #000000;
+
+}
+
+body header h1 a {
+	color: #000000;
+}
+
+body article h3 {
+	font-weight: 600;
+	font-size: 18px;
+	text-align: left;
+	padding-top: 30px;
+}
+
+body article h2 {
+	font-weight: 600;
+	font-size: 23px;
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+body article p {
+	font-family: Lato, Raleway, sans-serif;
+	font-weight: 400;
+	font-size:15px;
+	text-transform: none;
+	text-align: left;
+	padding: 20px 0px 20px 0px;
+}
+
+footer {
+	background-color: #CDF3F6;
+	padding: 20px 0px 0px 0px;
+}
+
+footer a {
+	font-weight: 600;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 20px 20px 50px 20px;
+}
+
+footer p {
+	font-family: Lato, Raleway, sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	padding: 20px;
+	margin: 20px 0px 60px 0px;
+}
+
+footer section {
+	padding-bottom: 10px;
+}
+
+a:link {
+	color: #44545E;
+}
+
+a:visited {
+	color: #44545E;
+}
+
+footer img {
+	margin-bottom: -10px;
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 18px;
+	text-align: left;
+}
+
+aside {
+	margin-top: 50px;
+}
+
+aside p {
+	font-family: Lato, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: left;
+	text-transform: none;
+}
+
+aside ul li a {
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	text-align: left;
+	text-transform: none;
+	color: #7E9AAA;
+	text-decoration: none;
+}
+
+aside ul li {
+	text-align: left;
+	padding: 0px 0px 10px 0px;
+}
+
+aside ul {
+	margin-left: -22px;
+	margin-bottom: 40px;
+}
+
+.aboutimage {
+	text-align: left;
+	padding: 20px 0px 20px 0px;
+}
+
+.maincolumn {
+	max-width: 85%;
+	margin: 0 auto;
+}
+
+.headerimage {
+	width: 350px;
+}
+
+a:hover {
+	color: #2C3C44;
+}
+/* Fix for responsive images */
+img {
+	max-width: 100%;
+}
