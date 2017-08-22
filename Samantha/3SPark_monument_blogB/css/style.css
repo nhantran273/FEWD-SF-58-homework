@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+body{
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0px 0px 0px 0px;
+}
+img {
+	max-width: 100%;
+}
+h1, h2, h3{
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+}
+h1{
+	font-size: 37px;
+	margin-bottom: 0px;
+	letter-spacing: 10px;
+}
+h2{
+	font-size: 23px;
+}
+h3{
+	font-size: 18px;
+}
+p{
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	text-align: center;
+	text-transform: lowercase;
+}
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+header{
+	color: white;
+	background-image: url("../images/home_header_bg.jpg");
+	background-size: cover;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+nav{
+	padding: 15px 0px 15px 0px;
+	text-align: center;
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+nav a {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #7B98AA;
+	text-decoration: none;
+	padding: 0px 50px 0px 50px;
+}
+nav a:hover{
+	color: black;
+}
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+.archive{
+	color: #44545E;
+	padding: 50px 75px 75px 75px;
+}
+.archiveFlex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.article1{
+	width:30%;
+}
+.article2{
+	width:30%;
+}
+.article3{
+	width:30%;
+}
+.articleImgs{
+	display: block;
+	margin: 0 auto;
+}
+aside{
+	background-color: #CDF3F6;
+	color: #44545E;
+	padding: 50px 125px 50px 125px;
+}
+aside h2{
+	line-height: 15px;
+}
+aside h3{
+	margin-bottom: 35px;
+}
+main{
+	padding: 50px 75px 35px 75px;
+}
+main h2{
+	margin-bottom: 35px;
+}
+main h3{
+	margin-bottom: 35px;
+}
+.images{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.imgsCol{
+	flex-basis: 32%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.issueImgs1{
+	flex-basis: 49%;
+}
+#picScale{
+	margin-bottom: 6%;
+}
+.issueImgs1:hover{
+	opacity: .75;
+}
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+.readButton{
+	display: block;
+	text-transform: uppercase;
+	font-weight: 600;
+	border: 1px solid;
+	padding: 5px 15px 5px 15px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+.readButton a{
+	text-decoration: none;
+	color: #44545E;
+}
+.readButton:hover{
+	background-color: #44545E;
+}
+.readButton a:hover{
+	color: white;
+}
+.submitButton{
+	text-transform: uppercase;
+	font-weight: 600;
+	border: 1px solid;
+	padding: 5px 15px 5px 15px;
+	background-color: #CDF3F6;
+	margin-left: 15px;
+}
+.submitButton a{
+	text-decoration: none;
+	color: #44545E;
+}
+.submitButton a:hover{
+	color: black;
+}
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+footer{
+	background-color: #CDF3F6;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+footer .socialMedia {
+	padding: 35px 0px 35px 0px;
+}
+.socialMedia a i {
+	margin: 0px 20px 0px 20px;
+	font-size: 22px;
+	color: #44545E;
+}
+footer hr {
+	border: none;
+	border-bottom: 1px solid;
+}
+footer .copyright p{
+	padding: 0px 0px 15px 0px;
+	margin-bottom: 0;
+	text-transform: capitalize;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #44545E;
+}
+footer .contactForm{
+	margin-bottom: 40px;
+}
+footer .emailInput{
+	text-transform: uppercase;
+	padding: 6px 35px 6px 35px;
+	border: none;
+	background-color: white;
+	font-weight: 600;
+	text-align: center;
+}
+#name{
+	text-decoration: none;
+	color: black;
+}
