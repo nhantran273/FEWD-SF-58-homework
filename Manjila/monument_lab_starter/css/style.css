@@ -1,0 +1,251 @@
+
+/*Add a link to Google Fonts at the top! THis should be the first line of your stylesheet.*/
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+	font-family:"Raleway", sans-serif;
+	color: #44545E;
+	letter-spacing: .05em;
+
+}
+
+#sidebyside{
+	margin: 20px;
+}
+
+
+img {
+	height: 400px;
+	max-width: 100%;
+}
+
+article{
+	padding: 40px;
+}
+
+article img{
+	display: block;
+	margin: 0 auto;
+}
+
+
+#about{
+	background-color: #CDF3F6;
+	padding: 100px 300px 150px 300px;
+
+}
+
+a:hover{
+	color: #aa80ff;
+	transition: 3s;
+}
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+nav{
+	text-align: center;
+	padding: 15px;
+	position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    background-color: white
+}
+nav a{
+	text-decoration: none;
+	text-transform:uppercase;
+	font-size: 16px;
+	color: #7B98AA;
+	margin: 20px;
+	padding: 50px;
+}
+
+
+.row{
+	display:flex;
+	justify-content: space-around;
+	margin-left:75px;
+	margin-right: 75px;
+	margin-bottom: 20px;
+}
+
+.row img{
+	flex-basis: 30%;
+	margin-top: 20px;
+
+}
+
+.row img:hover {
+	transition: 2s;
+   -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+
+}
+
+
+
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+p{
+	font-family:"Lato", sans-serif;
+	font-size: 15px;
+	text-align: center;
+	line-height: 20px;
+}
+
+.col-1-3{
+	flex-basis: 32%;
+}
+
+
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+header{
+	text-align: center;
+	text-transform: uppercase;
+	background-image: url("../images/home_header_bg.jpg");
+	background-size: cover;
+	height: 724px;
+	width: 1424px;
+	padding: 250px;
+
+}
+
+.fixed-background{
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+	font-size: 37px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: .2em;
+
+}
+
+h2{
+	font-size: 23px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+}
+
+.special{
+	color:#44545E ;
+	margin-top: 100px;
+}
+
+h3{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+#sidebyside{
+	display: flex;
+}
+
+#pictures{
+	padding-bottom: 50px;
+}
+
+
+
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+#sidebyside button{
+	text-align: center;
+	background-color: white;
+}
+
+button{
+	text-transform: uppercase;
+	background-color: #CDF3F6;
+	border:2px solid grey;
+	font-size: 13px;
+	margin: 25px;
+	width: 150px;
+	height: 32px;
+	padding: 5px;
+}
+
+a{
+	text-decoration: none;
+}
+
+button a{
+	display: flex;
+	justify-content: center;
+}
+
+
+input{
+	width: 200px;
+	padding: 5px;
+	color:#44545E;
+}
+
+.btn{
+	margin-left: 120px;
+}
+
+
+
+
+
+
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+footer{
+	text-align: center;
+	padding: 50px;
+	background: #CDF3F6;
+	font-family:"Lato", sans-serif;
+	font-size: 15px;
+}
+
+footer a{
+	margin: 30px;
+}
+
+hr{
+	padding:0;
+	background: #44545E;
+	height: 3px;
+}
+
+
+
+input{
+	text-transform: uppercase;
+	text-align: center;
+	width:300px;
+	height: 35px;
+}
+
