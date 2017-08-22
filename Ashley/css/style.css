@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+font-family: "Raleway", sans-serif;
+text-transform: uppercase;
+letter-spacing: -.02em;
+text-align: center;
+color:#4454SE;
+font-weight: 600px;
+}
+nav a{
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+	margin: 20px;
+	color:#7B98AA;
+}
+header {
+	font-family: "Raleway", sans-serif;
+	font-size: 37px;
+	background-image: url("../images/blog_header_bg.jpg");
+	padding: 100px;
+}
+a{ 
+	text-decoration: none;
+	color: #F8F8FF;
+}
+h3 {
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+text-align: left;
+color: #44545E;
+}
+h2 {
+font-family: "Raleway", sans-serif;
+font-size: 23px;
+text-align: left;
+color: #44545E;
+}
+p {
+font-family: "Lato", sans-serif;
+font-size: 15px;
+text-transform: lowercase;
+text-align: left;
+color: #44545E;
+}
+ul {
+text-align: left;
+border: 600px;
+font-size: 15px;
+}
+
+#camping {
+color: #44545E;
+}
+/* Fix for responsive images */
+img {
+	display: block;
+	max-width: 100%;
+	margin: 40px;
+}
+
