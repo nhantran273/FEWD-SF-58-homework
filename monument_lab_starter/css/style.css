@@ -1,0 +1,186 @@
+
+			/*Add a link to Google Fonts at the top! THis should be the first line of your stylesheet.*/
+			@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+			/* ----------------------------------------
+			Base Styles
+			------------------------------------------- */
+			/* Note: Makes sure that padding and the border are included in the width for each element. */
+			/* Don't add anything else under the * selector! */
+			* 
+
+			img {
+				height: 400px;
+				max-width: 100%;
+				padding: 50px;
+
+			}
+
+			body {
+					text-align: center;
+					padding: 35px;
+			}
+
+			/* ----------------------------------------
+			Typography
+			------------------------------------------- */
+			nav {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				text-transform: uppercase;
+				font-family: Raleway;
+				font-weight: 600;
+				font-size: 16px;
+				font-color: #7B98AA;
+			}
+
+			aside {
+					display: flex
+					flex-direction: row;
+					justify-content: space-around;
+					
+				
+					
+			}
+
+	       /* ----------------------------------------
+			Header
+			----------------------------------------- */
+			 		
+		header {
+			       padding: 200px;
+			       background-image: url("../images/home_header_bg.jpg");
+			       background-position: center;
+			       margin: 20px;
+			       text-align: center;
+			       color: white;
+			       letter-spacing: 10px;
+
+			}
+
+
+			header h1 {
+						text-transform: uppercase;
+						font-family: Raleway;
+						font-size: 37px;
+						font-weight: 600
+
+			}
+
+			header h2 {
+						text-transform: uppercase;
+						font-family: Raleway;
+						font-size: 23px;
+						font-weight: 600
+						text-align: center;
+			}
+
+			h2 {
+				text-transform: uppercase;
+				font-family: Raleway;
+				font-size: 23px;
+				font-weight: 600
+				text-align: center;
+
+			}
+
+			h3 {
+				text-transform: uppercase;
+				font-family: Raleway;
+				font-size: 18px;
+				font-weight: 600
+			}
+
+			h4 {
+					text-transform: uppercase;
+					font-family: Raleway;
+					font-size: 13px;
+					font-weight: 600
+
+			}
+
+			p {
+				font-family: Lato;
+				font-weight: 400;
+				font-size: 15px;
+				padding: 20px
+
+			}
+
+			article {
+					display: flex;
+					flex-direction: column;
+					background-color: #CDF3F6;
+					border: 80px;
+			}
+
+
+			/* ----------------------------------------
+			Lists
+			------------------------------------------- */
+
+
+
+			/* ----------------------------------------
+			Layout
+			------------------------------------------- */
+
+			.row {
+			display: flex;
+			justify-content: space-between;
+			margin: 20px;
+
+		}
+
+		    .col-1-3 {
+		             flex-basis: 50%;
+
+        }
+
+            .col-1-1 {
+        			 flex-basis: 50%;
+        	}
+		
+		section img {
+					 display: flex;
+					 justify-content: center;
+		}
+		
+
+			/* ----------------------------------------
+			Header
+			------------------------------------------- */
+
+
+			/* ----------------------------------------
+			Buttons
+			------------------------------------------- */
+
+			Buttons {
+
+			}
+
+
+
+			/* ----------------------------------------
+			Footer
+			------------------------------------------- */
+
+		footer {
+				background-color: #CDF3F6;
+				overflow: auto;
+			}
+
+		footer .wrap {
+				padding: 30px 15px;
+				
+			}
+
+		.social-links a {
+						font-size: 30px;
+						padding: 15px;
+						margin-bottom: 30px;
+						display: inline-block;
+						color: #44545E;
+		}
+
