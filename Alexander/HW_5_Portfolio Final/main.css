@@ -1,0 +1,14 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+/* BODY - OVERARCHING STYLES */
+
+body {
+	font-family: Roboto, Open Sans, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #333333;
+}
