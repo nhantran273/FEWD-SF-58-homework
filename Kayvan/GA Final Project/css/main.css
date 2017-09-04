@@ -1,0 +1,22 @@
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+
+
+.row {
+	display: flex;  
+	background-color: blue;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+
+}
