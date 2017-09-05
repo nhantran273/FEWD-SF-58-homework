@@ -12,3 +12,15 @@ body {
 	font-weight: 400;
 	color: #333333;
 }
+
+h1 {
+	font-family: Roboto Slab, Roboto, Open Sans, sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+}
+
+h2 {
+	font-family: Roboto Slab, Roboto, Open Sans, sans-serif;
+	font-size: 32px;
+	font-weight: 400;
+}
