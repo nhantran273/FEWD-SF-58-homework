@@ -1,0 +1,89 @@
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+* {
+  box-sizing: border-box;
+}
+
+body { 
+	font-family: "Raleway", sans-serif; 
+	padding: 0;
+	margin: 50px;
+	border: none;
+
+}
+
+header {
+	text-align: center;
+	margin: 0 auto;
+	padding: 25px 0px 55px 0px;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+  margin: 10px 0px 0px 30px;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	padding: 25px 25px 50px 25px;
+	background-color: mintcream;
+	color: white;
+	font-size: 28px;
+}
+
+p {
+	margin-right: 30px;
+}
+
+
+.sidebar {
+	margin-right:50px;
+	border-spacing: 25px;
+}
+
+.form {
+	padding: 25px 0px 25px 0px;
+	width: 90%;
+	font-size: 42px;
+
+}
+
+
+.row {
+	display: flex;
+
+}
+
+.col-1-2{
+	flex-basis: 40%
+	justify-content: space-between;
+}
+
+.links {
+	text-align: right;
+	padding-right: 50px;
+	padding-bottom: 25px;
+	font-size: 20px;
+
+}
+
+.about {
+	padding: 0px 30px 0px 30px;
+	text-align: justify;
+}
+
