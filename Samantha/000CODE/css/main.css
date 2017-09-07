@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Lora:400,700');
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+body{
+	background-color: #d1dbdc;
+}
+/*TEXT STUFF*/
+h1{
+	color: #69444c;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 0px;
+}
+h2{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+/*NAV STUFF*/
+nav{
+	padding: 10px 20px 10px 30px;
+}
+.navHome{
+	display: inline-block;
+	margin-right: 15px; 
+}
+.navButtons{
+	display: inline-block;
+	margin: 0px 15px 10px 15px;
+}
+#uxD{
+	position: relative;
+	top: 10px;
+	background-color: #f3e1df;
+	padding: 0px 25px 0px 25px;
+	height: 27px;
+	width: 100px;
+	box-shadow: 8px 12px 0px 0px #d1dbdc inset;
+}
+#userR{
+	position: relative;
+	top: 10px;
+	background-color: #f3e1df;
+	padding: 0px 25px 0px 25px;
+	height: 27px;
+	width: 145px;
+	box-shadow: 8px 12px 0px 0px #d1dbdc inset;
+}
+#arch{
+	position: relative;
+	top: 10px;
+	background-color: #f3e1df;
+	padding: 0px 25px 0px 25px;
+	height: 27px;
+	width: 140px;
+	box-shadow: 8px 12px 0px 0px #d1dbdc inset;
+}
+#graphic{
+	position: relative;
+	top: 10px;
+	background-color: #f3e1df;
+	padding: 0px 25px 0px 25px;
+	height: 27px;
+	width: 85px;
+	box-shadow: 8px 12px 0px 0px #d1dbdc inset;
+}
+.textPosition{
+	position: absolute;
+	width: 200px;
+	top: 0px;
+	left: 0px;
+	line-height: 0px;
+}
+/*HOVER STUFF*/
+/*CONTENT STUFF*/
+.flexBox{
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	height: 100vh;
+}
+.intro{
+	text-align: center;
+	font-family: 'Lora', serif;
+	background-color: #ebebeb;
+	color: #69444c;
+	font-size: 50px;
+	width: 25%;
+}
+.personality{
+	text-align: center;
+	font-family: 'Lora', serif;
+	padding: 25px 25px 25px 25px;
+	background-color: #eadee8;
+	width: 50%;
+}
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
