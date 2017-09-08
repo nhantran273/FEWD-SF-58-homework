@@ -5,7 +5,7 @@ $(window).on('scroll', function () {
 	console.log('The distance scrolled is: ' + distanceScrolled);
 
 	// Step 2: Write Rest of JS here
-	if (distanceScrolled > 480) {
+	if (distanceScrolled > 340) {
 		$('.main-nav').addClass('scrolled');
 	} else {
 		$('.main-nav').removeClass('scrolled');
@@ -22,5 +22,20 @@ $(window).on('scroll', function () {
 	} else {
 		$('.butterfly').removeClass('animated');
 	}
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}	
 
 });
