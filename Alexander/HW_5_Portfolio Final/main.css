@@ -2,7 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
 
+
+/* NORMALIZE STYLES */
+* {
+	margin: 0px;
+	padding: 0px;
+}
 
 /* BODY - OVERARCHING STYLES */
 
@@ -14,9 +21,11 @@ body {
 }
 
 h1 {
-	font-family: Roboto Slab, Roboto, Open Sans, sans-serif;
+	font-family: Arvo, Roboto, Open Sans, sans-serif;
 	font-size: 40px;
 	font-weight: 400;
+	color: #2D3142;
+	margin-left: 80px;
 }
 
 h2 {
@@ -24,3 +33,57 @@ h2 {
 	font-size: 32px;
 	font-weight: 400;
 }
+
+h3 {
+	font-family: Roboto, Open Sans, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: #BFC0C0;
+	padding: 25px 10px 0px 10px;
+}
+
+
+/* BODY - HEADER BAR */
+
+.headerbar {
+	width: 100%;
+	background-color: #4F5D75;
+	height: 16px;
+	margin-bottom: 20px; 
+}
+
+.navbar {
+	text-align: right;
+	margin-right: 80px;
+}
+
+.navbar a h3 {
+	display: inline-block;
+}
+
+a:hover {
+	color: #EF8354;
+}
+
+/* BODY - FOOTER */
+
+.sitefooter {
+	background-color: #2D3142;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.col_2_3 {
+	flex-basis: 66.66%;
+}
+
+.col_1_3 {
+	flex-basis: 33.33%;
+}
+
