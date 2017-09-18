@@ -8,20 +8,26 @@ var computerScore = 0;
 
 // Create a function play. It should accept two parameters: humanPlay and computerPlay
 
-function play() {
-  console.log ('You played' + humanPlay. 'The bot played' computerPlay.);
-  if (humanPlay = computerPlay) {
+function play() {{
+  var humanPlay=paper;
+  var computerPlay=computerPlay;
+  console.log ('You played ' + humanPlay'. The bot played ' computerPlay.);
+}
+  if (humanPlay === computerPlay) {
     console.log('You tied. :\');
   }
   else if (humanPlay==="paper" && computerPlay==="rock" || humanPlay==="rock" && computerPlay==="scissors" || humanPlay==="scissors" && computerPlay==="paper") {
     console.log('You win!. :)');
     result += 1;
+
   }
-  else () {
+  else {
     console.log('You lose. :-(');
-    result += 1;
+      result += 1;
+    }
   }
-}
+
+  play();
 // Inside the function:
 
   // Log "You played {humanPlay}. The bot played {computerPlay}" to the console.
