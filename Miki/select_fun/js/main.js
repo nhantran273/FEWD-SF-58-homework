@@ -14,8 +14,8 @@
 
 $('#box2').on('click', function(){
 	$('.box').addClass('fun');
-	$('h1').addClass('crazy')
-	$('#box3').slideToggle(300)
+	$('h1').addClass('crazy');
+	$('#box3').slideToggle(300);
 });
 
 
@@ -31,9 +31,9 @@ $('.box').on('click', function(){
 	// Update the src attribute for the image with the class .moto to "images/moto.jpg"
 	// Hint: look up the attr method if you get stuck!
 
-	$('#box1').on('click', function(){
-		$('.moto').attr('src', 'images/moto.jpg');
-	});
+$('#box1').on('click', function(){
+	$('.moto').attr('src', 'images/moto.jpg');
+});
 
 
 /**
