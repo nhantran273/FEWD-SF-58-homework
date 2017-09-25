@@ -6,7 +6,7 @@ body{
 
 
 #about, #work, #contact {
-	height: 600px;
+	height: 625px;
 }
 
 /***** GRID *****/
@@ -30,14 +30,25 @@ body{
 
 /***** HEADER *****/
 
-header {
+.fixed-background {
+    background: url('../img/aman-dhakal-205796.jpg');
     width: 100%;
     height: auto;
-    background: url('https://static.pexels.com/photos/273238/pexels-photo-273238.jpeg');
-    background-size: cover;
     display:block;
+    background-attachment: fixed;
     background-position: center;
-   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.change{
+    background: url('../img/ales-krivec-107499.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    display:block;
+    height: auto;
 }
 
 /*header h1 { 
@@ -52,14 +63,26 @@ header {
 
 header .full-width {
 align-items: right;
-display: flex;
-justify-content: center;
+text-align: center;
 padding: 300px 0; /*this could vary depending on screen size*/
 width: 100%;
 }
+.fixed-background{
+   
+}
+/*button{
+    border-radius: 5px;
+    width: 20%;
+    padding: 10px;
+    color: white;
+}*/
+
+i{
+    color: white;
+}
 
 header h2 {
-color: #5c8a8a;
+color: white;
 font-size: 72px;
 line-height: 80px;
 }
@@ -67,6 +90,7 @@ line-height: 80px;
 header h2 span {
     color: #2b2b2b;
 }
+
 
 /*****NAVIGATION MENU *****/
 
@@ -84,7 +108,7 @@ nav ul{
     margin-right: 50px;
 }
 
-nav ul li{
+ ul li{
     display: inline-block;
     padding-right: 20px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -99,14 +123,15 @@ nav ul li a {
 }
 
 a:hover{
-    color: white;
+    color: #4A5070;
 }
 
 
 /***** ABOUT *****/
 
 #about .full-width{
-	padding: 80px 0;
+	padding: 80px 0 150px 0;
+    
 }
 
 #about h2 {
@@ -125,8 +150,9 @@ a:hover{
 /***** WORK *****/
 
 #work{
-	background-color: #f9ceb7;
+	background-color: #4A5070;
 	text-align: center;
+    opacity: 0.80;
 }
 
 #work .full-width{
@@ -141,15 +167,17 @@ a:hover{
     font-size: 24px;
     width: 190px;
     margin: 0 auto;
+    color: white;
     
 }
  
 #work p {
     font-size: 18px;
     line-height: 30px;
-    color: #2b2b2b;
+    color: white;
     padding: 0 35px;
 }
+
 
 /***** ABOUT *****/
 
@@ -163,12 +191,13 @@ a:hover{
 
 #contact .full-width {
     padding: 110px 0;
+    padding-bottom: 200px;
 }
 
 #contact-img {
-    border: 12px solid white;
+    border: 12px solid lightgrey;
     margin-left: 100px;
-    width: 90%;
+    width: 80%;
 }
 
 #contact h2, #email-header, #socialmedia-header, #contact ul {
@@ -199,7 +228,7 @@ a:hover{
 
 #contact a {
     text-decoration: none;
-    color: #c49075;
+    color: grey;
     font-weight: bold;
     font-size: 28px;
 }
@@ -209,6 +238,12 @@ i{
 }
 
 i:hover{
+    color: #4A5070;
+}
+.fa-5x:hover{
+    color: white;
+}
+.fa-2x{
     color: grey;
 }
 
@@ -228,6 +263,54 @@ i:hover{
     display: flex;
     flex-wrap: wrap;
 }
+
+.inspo{
+    text-align: center;
+    color: #828282;
+
+}
+.inspo h3{
+    font-size: 36px;
+    padding: 10px;
+}
+.inspo p{
+    font-size: 24px;
+    padding-right: 100px;
+    padding-left: 100px;
+    line-height: 40px;
+}
+#space{
+    background-image: url('../img/stefan-stefancik-105376.jpg');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    display:block;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding: 300px 100px 150px 100px;
+    margin-top: 20px;
+}
+
+
+#space h3{
+    font-size: 36px;
+}
+
+#space p{
+    font-size: 24px;
+    width: 50%;
+    line-height: 40px;
+}
+
+footer ul{
+    text-align: center;
+}
+
+footer ul li{
+    padding: 0 50px 0 50px;
+}
+
 @media screen and (max-width: 1170px) {
     /*h1{
         font-size:16px;
