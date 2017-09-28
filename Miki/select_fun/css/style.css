@@ -197,12 +197,16 @@ button {
 /* Your CSS goes here!
    ================================================================ */
 /* Don't forget to SAVE this file after adding your styles! */
-.crazy {
-  color: red;
-}
+
+/* Add your styles here! background-color and color for fonts (and other styles if you'd like!) */
 
 .fun {
   background-color: blue;
   color: green;
-  /* Add your styles here! background-color and color for fonts (and other styles if you'd like!) */
+
 }
+
+.crazy {
+  color: orange;
+}
+
