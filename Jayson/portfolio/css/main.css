@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant|Marcellus+SC');
+
+body {
+	font-family: 'Assistant', serif;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.8;
+    background: url(https://studio87blog.files.wordpress.com/2016/01/white-marble-2048.jpg);
+    color: #4b4b4b;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin: 80px 150px 150px 150px;
+}
+
+img { border:15px solid #DCDCDC;
+}
+
+
+a {
+    font-weight: thin;
+    color: #4b4b4b;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+small {
+    color: #282828;
+}
+
+
+h1 {
+    color: #4b4b4b;
+    font-family: 'Marcellus SC', serif;
+    font-weight: normal;
+    font-size: 26px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 0auto;
+}
+
+
+p {
+    font-family: 'Assistant', sans-serif;
+    margin: 30px 30px 30px 30px;
+}
+
+
+strong {
+    color: #282828;
+}
+
+nav {
+    padding-top:10px;
+    letter-spacing:1px;
+    word-spacing: 5px;  
+    font-family: 'Marcellus SC', serif;
+}
+
+nav a:hover {
+    font-weight: bold;
+    text-align: center;
+    color: #ff5911;
+}
+
+img {
+    display: inline;
+    width: 620px;
+
+}
+
+footer {
+    font-family: 'Marcellus SC', serif;
+    font-size: 12px;
+    letter-spacing:1px;
+    word-spacing: 5px;
+    text-align:center;
+    padding-top: 30px;
+    color: #ff5911;
+}
+
+
+
+
+
+
+
+

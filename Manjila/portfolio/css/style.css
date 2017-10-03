@@ -1,0 +1,88 @@
+h1{
+	text-align: center;
+	margin-top: 100px;
+	font-size: 60px;
+	font-family: 'Bellefair', serif;
+}
+
+h2{
+	text-align: center;
+}
+
+nav{
+	font-size: 25px;
+	float: right;
+	word-spacing: 50px;
+	margin-right: 50px;
+	padding-left: 20px;
+	color: black;
+
+}
+
+a{
+	text-decoration: none;
+	font-family:'Bellefair', serif;
+	color: black;
+}
+
+a:hover {
+    color: #e60073;
+}
+
+.my-image{
+	border: 5px solid white;
+	border-radius: 100%;
+	display: block;
+	margin: 0 0 0 600px;
+}
+
+body{
+	background: #ebebeb;
+	
+}
+
+.basic{
+	margin: 0 30px 30px 30px;
+}
+
+ul{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+	line-height: 40px;
+}
+
+h2{
+	font-family: 'Bellefair', serif;
+}
+
+h3{
+	font-size: 20px;
+	font-family: 'Bellefair', serif;
+	font-size: 35px;
+}
+h4{
+	font-family: 'Bellefair', serif;
+	font-size: 25px;
+}
+
+p{
+	font-family:'Josefin Sans', sans-serif;
+	font-size: 25px;
+	line-height: 40px;
+}
+
+p.basic{
+	margin: 100px;
+	padding: 100px;
+	font-size: 30px;
+}
+#socialmedia-header{
+	text-align: center;
+}
+
+.contact li{
+    display: inline-block;
+	margin: 0 0 0 270px;
+
+     
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight|Source+Serif+Pr|Andada');
+
+#about {
+	background-position: 0% 50%; 
+}
+
+body {
+	font-family:'Zilla Slab Highlight', cursive;
+	font-size: 18px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#about_header_nav {
+	position: absolute;
+    right: 10%;
+    top: 10%;
+    height: 200;
+}
+
+#resume_header_nav {
+	position: absolute;
+    right: 10%;
+    top: 10%;
+}
+
+#work {
+	width: 400px;
+	position: absolute;
+	left: 25%;
+	top: 10%;
+}
+a {
+	color:#000000;
+}
+
+a:hover {
+	color: #FFFF00;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+nav {
+	font-size: 30px;
+	text-align: right;
+}
+
+#resume_nav {
+	text-align: left;
+}
+
+section {
+	height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 10%;
+    top: 33%;
+}
+
+img:hover {
+	transform: scale(1.2,1.2)
+}

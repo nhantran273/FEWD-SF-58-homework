@@ -1,0 +1,105 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+
+/* NORMALIZE STYLES */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* BODY - TYPLE STYLES */
+
+body {
+	font-family: Roboto, Open Sans, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+}
+
+body main{
+	background-image: url("images/background_image_v1.png");
+	background-repeat: none;
+	background-size: 100%;
+}
+
+h1 {
+	font-family: Arvo, Roboto, Open Sans, sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	color: white;
+	width: 365px;
+	margin: 80px auto 20px auto;
+}
+
+h2 {
+	font-family: Arvo, Roboto, Open Sans, sans-serif;
+	font-size: 32px;
+	font-weight: 400;
+}
+
+h3 {
+	font-family: Roboto, Open Sans, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: #BFC0C0;
+	padding: 25px 10px 0px 10px;
+}
+
+p {
+	width: 365px;
+	margin: 0 auto;
+}
+
+/* BODY - OTHER STYLES */
+
+button .cta_orange {
+	border-radius: 5;
+}
+
+/* BODY - HEADER BAR */
+
+.navbar {
+	text-align: right;
+	margin-right: 80px;
+}
+
+.navbar a h3 {
+	display: inline-block;
+}
+
+a:hover {
+	color: #EF8354;
+}
+
+/* BODY - WORK DISPLAY */
+
+.project_display {
+	height: 500px;
+	background-color: #2D3142;
+}
+/* BODY - FOOTER */
+
+.sitefooter {
+	background-color: #2D3142;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.col_2_3 {
+	flex-basis: 66.66%;
+}
+
+.col_1_3 {
+	flex-basis: 33.33%;
+}
+

@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.sidebar {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.main{
+	float: right;
+	width: 75%;
+}
+header{
+	text-align: center;
+	border: 2px solid #c8a5a2;
+	background-color: white;
+}
+section{
+	margin-bottom: 30px;
+}
+h1{
+	text-align:center;
+	margin-bottom: -15px;
+	color: #a2ac86;
+	font-family: 'Lora', serif;
+}
+h2{
+	font-size:20px;
+	font-family: 'Lora', serif;
+}
+h3{
+	text-align:center;
+	text-transform: uppercase;
+	font-family: 'Lora', serif;
+}
+h4{
+	text-transform: uppercase;
+	font-family: "Raleway", sans-serif;
+	font-size: 14px;
+	line-height: 0px;
+	margin-top: -5px;
+	margin-bottom: 25px;
+	color:#6d625a;
+}
+p{
+	font-family: "Raleway", sans-serif;
+	font-size: 14px;
+}
+ul{
+	list-style-type: none;
+	padding-left: 0; 
+	font-family: "Raleway", sans-serif;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: -5px;
+	font-size: 14px;
+	color: #9e5e82;
+}
+.HomeButton{
+	position:absolute;
+	top: 20px;
+	left: 35px;
+	width: 30px;
+	padding-top: 2px;
+	background-color: #da9d59;
+}
+.HomeButtonImg{
+	width: 25px;
+}
+.HomeButton:hover{
+	background-color: #6d625a;
+}
+.profilePhoto{
+	display: block;
+	width: 250px;
+	margin: 0 auto;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	margin-top: 25px;
+}
+.content{
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.skills{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+.IconArch{
+	display: inline-block;
+	width:125px;
+	text-align: center;
+}
+.IconArchPic{
+	width:125px;
+	border: 1px solid #b5bb88;
+}
+.IconUXD{
+	display:inline-block;
+	width:125px;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.IconUXDPic{
+	width:125px;
+	border: 1px solid #b5bb88;
+}
+.IconGraphic{
+	display: inline-block;
+	width:125px;
+	text-align: center;
+}
+.IconGraphicPic{
+	width:125px;
+	border: 1px solid #b5bb88;
+}
+.linkedinIcon{
+	width:25px;
+}
+.resumeButton{
+	padding:1px;
+	background-color: #c8a5a2; 
+	width: 185px;
+	margin: 0 auto;
+	margin-top: 35px;
+	text-decoration: none;
+}
+.resumeButton:hover{
+	background-color: #f8d9c6;
+	color: white;
+}
+footer{
+	width: 100%;
+}
+.links{
+	text-align: center;
+	padding-top: 150px;
+}
+.linksResume{
+	text-align: center;
+	padding-top: 35px;
+}
+.BehanceIcon{
+	width:25px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.facebookIcon{
+	width: 25px;
+}
+.contactColor{
+	background-color: #f8d9c6;
+	height:23px;
+	width: 100px;
+	margin: 0 auto;
+}
+.skillsColor{
+	background-color: #f8d9c6;
+	height:23px;
+	width: 75px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.toolsColor{
+	background-color: #f8d9c6;
+	height:23px;
+	width: 70px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.educationColor{
+	background-color: #f8d9c6;
+	height:23px;
+	width: 120px;
+	margin: 0 auto;
+}
+.weColor{
+	background-color: #f8d9c6;
+	height:23px;
+	width: 195px;
+	margin: 0 auto;
+}

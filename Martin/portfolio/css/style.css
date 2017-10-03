@@ -1,0 +1,34 @@
+header { background-image: <img src="img/blue_sky_with_clouds.jpg" />
+	
+}
+
+body {
+	font-family: 'Georgia', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background: antiquewhite;
+    color: Slategray;
+    text-align: center;
+}
+
+h1 {
+  background: lightblue;
+  width: 800px;
+  margin: 10px;
+  padding: 5px;
+  border: 5px solid black;
+  text-align: center;
+  color: black;
+  
+}
+
+nav { text-align: center;
+}
+
+ul { text-align: left;
+}
+
+img {
+    width: 400px;
+    
+}

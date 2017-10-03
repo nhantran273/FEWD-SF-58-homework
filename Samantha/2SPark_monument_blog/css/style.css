@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: .02em;
+	-webkit-font-smoothing: antialiased;
+	margin: 0px 0px 0px 0px;
+}
+header{
+	background-image: url("../images/blog_header_bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 65px 0px 65px 0px;
+}
+
+h1{
+	text-transform: uppercase;
+	font-size: 37px;
+}
+header h1 a{
+	text-decoration: none;
+	color: white;
+}
+h2{
+	text-transform: uppercase;
+	font-size: 23px;
+	color: #44545E;
+}
+h3{
+	font-size: 18px;
+	color: #44545E;
+}
+nav{
+	padding: 15px 0px 15px 0px;
+	text-align: center;
+}
+nav a {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #7B98AA;
+	text-decoration: none;
+	padding: 0px 35px 0px 35px;
+}
+nav a:hover{
+	color: black;
+}
+.flexBox{
+	display:flex;
+	padding: 0px 100px 0px 100px;
+	justify-content: space-between;
+}
+article {
+	margin: 35px 50px 50px 0px;
+	width: 75%;
+}
+article p {
+	text-transform: lowercase;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+}
+aside {
+	margin-top: 55px;
+	padding-top: 20px;
+	width: 25%;
+}
+aside p {
+	text-transform: lowercase;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+}
+aside ul{
+	padding: 0px 0px 0px 15px;
+	margin-bottom: 50px;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 30px;
+}
+aside li a{
+	color: #7B98AA;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.aboutImage{
+	margin: 25px 0px 15px 0px;
+}
+footer{
+	background-color: #CDF3F6;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+footer .socialMedia {
+	padding: 35px 0px 35px 0px;
+}
+.socialMedia a i {
+	margin: 0px 20px 0px 20px;
+	font-size: 22px;
+	color: #44545E;
+}
+footer hr {
+	border: none;
+	border-bottom: 1px solid;
+}
+footer .copyright p{
+	padding: 0px 0px 15px 0px;
+	margin-bottom: 0;
+	text-transform: capitalize;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #44545E;
+}
+footer .contactForm{
+	margin-bottom: 40px;
+}
+footer .emailInput{
+	text-transform: uppercase;
+	padding: 6px 35px 6px 35px;
+	border: none;
+	background-color: white;
+	font-weight: 600;
+	text-align: center;
+}
+footer .submitButton{
+	text-transform: uppercase;
+	font-weight: 600;
+	border: 1px solid;
+	padding: 5px 15px 5px 15px;
+	background-color: #CDF3F6;
+	margin-left: 15px;
+}
+.submitButton a{
+	text-decoration: none;
+	color: #44545E;
+}
+.submitButton a:hover{
+	color: black;
+}
+#name{
+	text-decoration: none;
+	color: black;
+}
+/* Fix for responsive images */
+img {
+	max-width: 100%;
+}

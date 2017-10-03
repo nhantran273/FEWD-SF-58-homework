@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:400,500');
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+body{
+	/*background-color: #e2e2e2;*/
+}
+/*TEXT STUFF*/
+h1{
+	color: #304546;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 0px;
+}
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+/*NAV STUFF*/
+nav{
+	padding: 10px 20px 10px 30px;
+}
+.navHome{
+	display: inline-block;
+	margin-right: 10px; 
+}
+.navButtons{
+	display: inline-block;
+	margin: 0px 15px 10px 15px;
+}
+.menuButton{
+	position: absolute;	
+	background-color: #66393e;
+	padding: 6px 5px 2px 5px;
+	right: 30px;
+	top: 20px;
+}
+.menuButton img{
+	height: 24px;
+}
+#uxD{
+	position: relative;
+	top: 10px;
+	background-color: #e0bab6;
+	padding: 0px 25px 0px 25px;
+	height: 28px;
+	width: 107px;
+	box-shadow: 14px 12px 0px 0px white inset;
+}
+#userR{
+	position: relative;
+	top: 10px;
+	background-color: #e0bab6;
+	padding: 0px 25px 0px 25px;
+	height: 28px;
+	width: 154px;
+	box-shadow: 14px 12px 0px 0px white inset;
+}
+#arch{
+	position: relative;
+	top: 10px;
+	background-color: #e0bab6;
+	padding: 0px 25px 0px 25px;
+	height: 28px;
+	width: 145px;
+	box-shadow: 14px 12px 0px 0px white inset;
+}
+#graphic{
+	position: relative;
+	top: 10px;
+	background-color: #e0bab6;
+	padding: 0px 25px 0px 25px;
+	height: 28px;
+	width: 94px;
+	box-shadow: 14px 12px 0px 0px white inset;
+}
+.textPosition{
+	position: absolute;
+	width: 200px;
+	top: 0px;
+	left: 0px;
+	line-height: 0px;
+}
+/*HOVER STUFF*/
+
+.navHome h1:hover{
+	color: #d44229;
+}
+#uxD:hover{
+	box-shadow: 14px 12px 0px 0px #e0bab6 inset;
+}
+#userR:hover {
+	box-shadow: 14px 12px 0px 0px #e0bab6 inset;
+}
+#arch:hover{
+	box-shadow: 14px 12px 0px 0px #e0bab6 inset;
+}
+#graphic:hover{
+	box-shadow: 14px 12px 0px 0px #e0bab6 inset;
+}
+/*CONTENT STUFF*/
+.horizontalScrolling{
+	position: relative;
+	overflow: auto;
+	height: 695px;
+}
+.scrollContent{
+	position: absolute;
+	width: 2000px;
+	background-color: red;
+}
+.intro{
+	position: absolute;
+	display: block;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	background-color: #606750;
+	color: white;
+	font-size: 50px;
+	padding: 25px;
+	left: 30px;
+	z-index: 2;
+	box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.definition{
+	position: absolute;
+	display: block;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	padding: 25px 25px 25px 25px;
+	background-color: #d7e1dc;
+	width: 400px;
+	padding: 50px;
+	top: 75px;
+	height: 600px;
+	left: 225px;
+	z-index: 1;
+	box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.skills{
+	position: absolute;
+	background-color: #e9e0ce;
+	font-family: 'Playfair Display', serif;
+	height: 500px;
+	width: 400px;
+	z-index: 0;
+	top: 25px;
+	left: 600px;
+	text-align: center;
+	padding: 50px;
+	box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.project1{
+	position: absolute;
+	left: 1050px;
+	top: 275px;
+	text-align: right;
+}
+.imageFill{
+	background-color: grey;
+	height: 350px;
+	width: 500px;
+	box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+}
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}

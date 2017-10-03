@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+
+body
+
+{ background-color: #f9f9f9;
+ }
+
+h1 {
+	font-size: 36px;
+	text-align: left;
+	margin: 20px 0 20px 40px;
+	font-family: Lato, sans-serif;
+	font-weight: 900px;
+}
+
+.red {
+	color: #fc7b7b;
+}
+
+ul
+{
+	float: right;
+	margin: -50px 40px 0px 0px;
+}
+li {
+	display: inline;
+	padding: 15px 15px 15px 15px;
+
+}
+
+nav {
+	align: right;
+	font-size: 20px;
+	font-family: Lato, sans-serif;
+	font-weight: 400px;
+}
+
+/* unvisited link */
+a:link {
+    color: #444444;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #444444;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #fc7b7b;
+}
+
+.profilepic {
+	width: 350px;
+	margin: 0 auto;
+	display: block;
+}
+
+p {
+	font-size: 20px;
+	font-family: Lato, sans-serif;
+	margin: 20px 0px 20px 40px;
+	padding: 60px 20px 20px 20px;
+
+}
+
+.aboutyou {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+    
+    h1 {
+      font-size: 24px;
+    }
+    .profilepic {
+    	width: 250px;
+    }
+}
+
+@media (max-width: 700px) {
+    
+    h1 {
+      font-size: 24px;
+    }
+    .profilepic {
+    	width: 200px;
+    }
+}
+    

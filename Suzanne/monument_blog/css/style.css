@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	font-family: Raleway, sans-serif; 
+	text-transform: uppercase;
+	letter-spacing: .08em;
+	text-align: center;
+	color: #44545E;
+	webkit-font-smoothing:antialiased;
+	padding-top: 5px;
+}
+
+
+nav	{
+	text-decoration: none; 
+	color: #7B98AA;
+	font-size: 16px;
+	word-spacing: 100px
+}
+
+a {
+	text-decoration: none;
+	color: #7B98AA;
+}
+
+h1 a {
+	color: white;
+	letter-spacing: .25em;
+}
+
+/* Fix for responsive images */
+img {
+	max-width: 100%;
+}
+
+p {
+	font-size: 15px;
+	font-family: Lato;
+	text-transform: none;
+	text-align: left;
+}
+
+section {
+	display: flex;
+	align-items: flex-start;
+	padding-left: 50px;
+	padding-right: 50px;		 
+}
+
+article {
+	text-align: left;
+	padding: 20px 90px 20px 20px;
+	width: 700px;
+}
+
+article p {
+	line-height: 20px;
+}
+
+aside {
+	text-align: left;
+	line-height: 25px;
+	padding-top: 70px;
+	padding-left: 10px;
+	width:250px;	
+}
+
+.image {
+	position: relative;
+}
+
+.text {
+	left:0;
+	position: absolute;
+	text-align: center;
+	top: 110px;
+	width: 100%;
+}
+
+ul {
+	font-size: 15px;
+	text-transform: none;
+	text-align: left;
+	padding-left: 15px;
+}
+
+footer 
+	{ word-spacing: 50px;
+	background-color: #CDF3F6;
+	padding: 20px 20px 20px 20px
+}
+
+footer p 
+	{
+	word-spacing: normal;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 20px
+}
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+

@@ -1,0 +1,28 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #F2EAD0;
+    color: #595959;
+}
+
+a {
+    font-weight: bold;
+    color: #AB4D4F;
+}
+
+a:hover {
+    color: #581516;
+}
+
+h1 {
+    color: #282828;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-style: normal;
+}
+
+nav {
+    text-align: center;
+}

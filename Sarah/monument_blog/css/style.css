@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+
+body {
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: .02em;
+	color:#44545E;	
+	webkit-font-styling: antialiased;
+}
+
+body header {
+	height: 300px;
+	margin: 0px;
+	background-image: url("../images/blog_header_bg.jpg");
+	background-size: cover;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+
+}
+
+a:hover {
+	color: black;
+	transition-duration: .4s;
+}
+
+/*Monument*/
+body header h1 {
+	padding-top: 140px;
+	font-size: 37px;
+	letter-spacing: .27em;
+	color: white;
+	margin: 10px;
+}
+
+/*Sets Monument title white*/
+#special_title {
+	color: #ffffff;
+}
+
+/* Fix for responsive images */
+img {
+	max-width: 100%;
+}
+
+/*Sets detault anchor color and decoration to grey, none*/
+a {
+	text-decoration: none;
+	color: #44545E;
+}
+
+/*Light blue top navigation*/
+body nav a{
+	font-size: 16px;
+	color: #7B98AA;
+	margin-left: 80px;
+}
+
+/*Date*/
+article h3 {
+	margin-top: 40px;
+	font-size: 18px;
+}
+
+/*visual guide to the southwest*/
+article h2 {
+	font-size: 23px;
+	margin-bottom: 50px;
+}
+
+
+/*-----About Us Section------*/
+aside {
+	margin-top: 80px;
+	margin-bottom: 35px;
+}
+
+aside h3 {
+	margin-top: 40px;
+}
+
+aside ul {
+	padding-left: 20px;
+}
+
+aside ul li {
+	margin-bottom: 8px;
+}
+
+
+footer {
+	width: 100%;
+	height: 100px;
+	margin-top: 50px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	background-color: #cdf3f6; /*light blue*/
+
+}
+
+footer section {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid black;
+
+}
+
+/*Facebook Twitter Instagram links*/
+footer section a {
+	margin-left:35px;
+}
+
+/*2016 Sarah Holden*/
+footer a {
+	margin-left: 20px;
+}
+
+/*Sarah Holden*/
+footer p a {
+	text-transform: capitalize;
+}
+
+.lato_400_lwcase_15px {
+	font-family: "Lato", sans-serif;
+	font-weight: : 400;
+	text-transform: lowercase;
+	font-size: 15px;
+	margin-top:20px;
+	margin-bottom:25px;
+}
+
+.raleway_400_capitalize_15px {
+	font-family: "Raleway", sans-serif;
+	font-weight: : 400;
+	text-transform: capitalize;
+	font-size: 15px;
+	text-decoration: none;
+	color: #7B98AA;
+}
+
+/*Decomposed this because it does not apply to the footer element sarah Holden*/
+.center_align {
+	text-align: center;
+}
+
+/*Indents the contents of the page beginning with Monument and before the footer*/
+#indent {
+	margin-left: 75px;
+}
+
+.fa {
+	font-size: 25px; /*Font Awesome Icon*/
+}
+
+/*Defines a flex box to place the Visual Guide section in a different column from About Us*/
+.flex_column {
+	display: flex;
+	justify-content: space-around;
+}
+
+.chunky {
+	width: 66%;
+}
+
+.slim {
+	width: 15%;
+
+}

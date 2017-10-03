@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	text-transform: uppercase;
+	text-align: center;
+	color: #44545e;
+	letter-spacing: .02em;
+	font-family: "Raleway", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding: 30px;
+
+}
+
+
+nav a {
+	color: #7b98aa;
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	text-decoration: none;
+	outline: none;
+	margin-left: 53px;
+	margin-right: 53px;
+	text-align: center;
+}
+
+h1 a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 37px;
+	color: #44545e;
+	background: url(/images/blog_header_bg.jpg);
+	background-size: 100px 80px;
+    background-repeat: no-repeat;
+	margin: 80px;
+}
+
+
+h1 div {
+    border: 10px dotted black;
+    padding:35px;
+    background: yellow;
+    background-clip: content-box;
+}
+
+p {
+	font-family: "Lato", sans-serif;
+	font-size: 15px;
+	text-transform: none;
+	text-align: left;
+
+
+}
+
+h2  {
+	text-align: left;
+	font-size: 23px;
+
+}
+
+h3  {
+	font-size: 18px;
+	font-weight: 600;
+	text-align: left;
+	display: flex;
+}
+
+
+/* Fix for responsive images */
+img {
+	max-width: 88%;
+	padding: 30px;
+}
+
+footer {
+
+	background-color: #CDF3F6;
+	text-align: center;
+}
+
+footer a{
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #44545E;
+}
+
+footer p a{
+	text-align: center;
+	font-size: 15px;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: none;
+	color: #44545E;
+    background-color: #cdf3f6;
+
+}
+
+footer p {
+	text-align: center;
+}
+aside p {
+	text-align: left;
+}
+
+aside ul {
+	text-align: left;
+	text-transform: none;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+aside a {
+	text-decoration: none;
+	color: #7b98aa;
+}
+
+section {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border-spacing: 30px;
+}
+
+
+
+

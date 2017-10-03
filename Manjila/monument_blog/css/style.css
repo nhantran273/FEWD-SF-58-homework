@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	font-family: "Raleway", sans-serif;
+	letter-spacing: .02em;
+	color: #44545E;
+	webkit-font-smoothing: antialiased;
+}
+
+nav{
+	text-align: center;
+	text-transform:Uppercase;
+
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #aa80ff;
+}
+nav a{
+	color: #7B98AA;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 100px;
+
+}
+
+header{
+	background-image: url("../images/blog_header_bg.jpg");
+	height: 450px;
+	margin-top: 20px;
+
+}
+
+h1{
+	text-align: center;
+	padding: 200px;
+}
+
+h1 a{
+	font-size: 37px;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: .50em;
+
+}
+h3{
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 23 px;
+	text-transform: uppercase;
+}
+/* Fix for responsive images */
+img {
+	max-width: 100%;
+
+}
+p{
+	font-family: "lato";
+	font-size: 15px;
+	text-align: left;
+}
+
+ul li a{
+	text-transform: capitalize;
+	color: #7B98AA;
+}
+
+article{
+	margin: 100px;
+
+}
+
+footer{
+	background: #CDF3F6;
+	color: #44545E;
+	text-align: center;
+	padding: 50px;
+	text-transform: uppercase;
+}
+
+footer a{
+	font-family: "raleway";
+	font-size: 15px;
+	text-align: center;
+	color: #44545E;
+	padding-right: 50px;
+}
+
+footer p{
+	font-family: "lato";
+	font-size: 15px;
+	text-align: center;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+
+footer p a{
+	font-weight: bold;
+}
+
+hr{
+	background-color: #44545E;
+	height: 1px;
+}
+
+div{
+	display: flex;
+}
+
+aside{
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+
