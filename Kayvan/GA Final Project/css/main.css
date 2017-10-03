@@ -16,6 +16,7 @@ header {
 	background-position: center;
 	height: 400px;
 	width: 100%;
+	position: relative;
 
 }
 
@@ -26,7 +27,10 @@ header div {
 	margin-top: 2.5rem;
 	display: inline-block;
 	text-align: center;
-	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	font-family: "Chronicle Text G1 A","Chronicle Text G1 B";
 	-webkit-font-smoothing: antialiased;
 	font-size: 20px;
@@ -36,34 +40,45 @@ header div {
 }
 
 
+
 .row {
 	display: flex;  
+	flex-wrap: wrap;
     overflow: none;
-    width: 400px;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+  
+
 	
 }
+
+
 
 .col-1-3 {
-	flex-basis: 33.33%;
-	justify-content: space-between;
+	width: 32%;
+	overflow: hidden;
 	transition: all .3s ease-in-out;
-	max-width: 100%;
-
-
+	flex-direction: column;
 	
+		
 }
 
+
+
+
 .col-1-3:hover {
-    opacity: .5;
+    opacity: .6;
     transition: opacity .5s ease-out;
     -moz-transition: opacity .5s ease-out;
     -webkit-transition: opacity .5s ease-out;
     -o-transition: opacity .5s ease-out;
 }
 
+
 .col-1-2: {
 	flex-basis: 48%;
-	justify-content: space-around;
+	
 }
 
 
@@ -80,6 +95,16 @@ nav {
     font-weight: 400;
     padding: 20px;
     box-shadow: 0 3px 11px rgba(0, 0, 0, .1);
+    background: #fff;
+}
+
+
+.scrolled {
+  
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
 
 }
 
@@ -97,6 +122,8 @@ nav a:hover {
 footer {
 	background-color: #4d4d4d;
 	overflow: auto;
+	/*background-image: url("../pics/PDWtopo1.png");*/
+	
 }
 
 footer input {
@@ -122,5 +149,50 @@ footer .wrap {
 	padding: 1rem 0 .2rem;
 
 }
+
+
+
+.location {
+	display: block;
+	position: relative;
+}
+
+
+
+
+.location span {
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: opacity 0s ease-in-out;
+}
+
+.location:hover span{
+	opacity: 1;
+	font-size: 30px;
+	font-family: "Verlag A","Verlag B";
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+
+
+}
+
+
+/*Media Query*/
+
+@media screen and (max-width: 970px) {
+	.row {
+		flex-direction: column;
+		align-items: center;
+
+	}
+}
+
+
+
+
 
 
